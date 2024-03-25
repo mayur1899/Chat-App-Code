@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an chat app with security">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Secure Chat App</title>
+    <script>
+        const name = prompt("Enter Your Name")
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="chat-container">
+        </div>
+        <div class="form-container">
+            <input type="text" id="message-input" placeholder="message">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/script.js"></script>
+</html>
